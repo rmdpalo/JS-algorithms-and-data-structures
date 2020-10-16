@@ -109,7 +109,7 @@ However, if we have something like this.
 ```javascript
 function optionThree(n) {
   for (let i = 0; i < n; i++) {
-    for (let i = 0; j < n; j++) {
+    for (let j = 0; j < n; j++) {
       console.log(i, j);
     }
   }
