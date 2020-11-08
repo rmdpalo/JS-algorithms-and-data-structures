@@ -117,7 +117,7 @@ function optionThree(n) {
 ```
 We have a for loop O(n) __nested__ inside another for loop O(n), which just means the as n grows the number of times the nested loop runs
 grows as well, which we label as 
-> O(n**2)
+> O(n<sup>2</sup>)
 
 Basically it means that as n grows, our runtime grows at the rate of n squared.
 
@@ -127,6 +127,33 @@ So far, we've only focused on Time Complexity for our Big O notation, which basi
 - Most primitive data types (booleans, numbers, undefined, null) are constant space.
 - Strings require O(n) space (where n is the string length)
 - Reference types are generall O(n), where n is the length (for arrays) or the number of keys (for objects)
+
+## Logarithms
+So far we've encountered some of the most common complexities: O(1), O(n), O(n<sup>2</sup>).
+Sometimes big O expressions involve more complex mathematical expressions
+One that appears more often than you might like is the _Logarithm_
+
+_What is a logarithm?_ 
+It is the inverse of exponentiation, if multiplication was exponentiation, division would be logarithms.
+log<sub>2</sub>(8) = 3 -> 2<sup>3</sup> = 8
+log<sub>2</sub>(value) = exponent -> 2<sup>exponent</sup> = value
+
+for Big O we'll omit the 2, because it's only the general trend that we care about.
+log === log<sub>2</sub>
+
+This isn't a math course, so here's a rule of thumb.
+The logarithm of a number roughly measures the number of times you can divide that number by 2 before you get a value that's __less than or equal to one__.
+
+_i.e. 8/2 === 4, 4/2 === 2, 2/2 === 1._ (we divided three times so log(8) = 3
+_25/2 === 12.5, 12.5/2 === 6.25, 6.25/2 === 3.125, 3.125/2 === 1.5625, 1.5625/2 === .78125_ log(25) = 5 (approx. 4.64).
+
+Why is this important? 
+- Logarithmic time complexity is great! O(log n) is the next fastest thing after constant time O(1)
+- O(nlog n) is the second slowest time complexity.
+
+- Certain searching algorithms have logarithmic time complexity.
+- Efficient sorting algorithms involve logarithms.
+- Recursion sometimes involves logarithmic space complexity.
 
 ## Big O Notation Recap
 - To analyze the performance of an algorithm, we use Big O Notation
