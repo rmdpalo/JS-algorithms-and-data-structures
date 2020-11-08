@@ -44,3 +44,14 @@ function sumRange(num){
 - the conditional where num === 1 is our _base case_
 - the recursive aspect with the _different input_ is the line where the function call happens with num - 1
 
+what happens when we call the function with an input of 3
+
+- sumRange(3)
+- num != 1, goes to next line return 3 + sumRange(2)
+- num != 1, goes to next line return 2 + sumRange(1)
+- num === 1, returns 1;
+- going back to sumRange(2) => 2 + 1 = 3, returns 3;
+- going back to sumRange(3) => 3 + 3 = 6, returns 6;
+
+It's easy to follow right now while our inputs are small but we can imagine how complicated it can get as our input grows.
+
