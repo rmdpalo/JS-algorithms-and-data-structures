@@ -124,3 +124,6 @@ Basically it means that as n grows, our runtime grows at the rate of n squared.
 ## Time Complexity vs. Space Complexity 
 So far, we've only focused on Time Complexity for our Big O notation, which basically means the run time of our applications. But we can also use Big O for Space complexity, or the amount of __space__ our application takes up in memory as the input gets bigger.
 
+- Most primitive data types (booleans, numbers, undefined, null) are constant space.
+- Strings require O(n) space (where n is the string length)
+- Reference types are generall O(n), where n is the length (for arrays) or the number of keys (for objects)
