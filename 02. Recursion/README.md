@@ -32,3 +32,15 @@ if we were to call the function countDown with an input of let's say 3, this is 
 - print 'All done!'
 
 As you can see, the function continues to call itself and run until our __base case__ is met. And every time the function is run, we use a __different input__
+
+### Our second recursive function
+
+```javascript
+function sumRange(num){
+  if(num === 1) return 1;
+  return num + sumRange(num-1);
+}
+```
+- the conditional where num === 1 is our _base case_
+- the recursive aspect with the _different input_ is the line where the function call happens with num - 1
+
