@@ -5,7 +5,7 @@
 - Explain why adding elements to the beginning of an array is costly.
 - Compare and contrast the runtime for arrays and objects, as well as built-in methods
 
-### Big O of Objects
+## Big O of Objects
 Unordered, key-value pairs!
 ```javascript
 let instructor = {
