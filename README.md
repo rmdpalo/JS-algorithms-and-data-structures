@@ -5,4 +5,4 @@ I am coming into this fresh and this is purely based on MY understanding. If som
 
 __Each repository represents an entire section, you are not expected to understand it immediately after reading over once so take your time. Each section takes days for me to finish__
 
-This a work in progress.
+This a work in progress, I try to update this at least once a week.
