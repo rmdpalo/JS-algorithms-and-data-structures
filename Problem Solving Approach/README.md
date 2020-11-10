@@ -69,4 +69,45 @@ _Write a function which takes two numbers and returns their sum._
   - What matters? the inputs, outputs,
     - function would be named add
       - inputs could be num1 and num2
-      - outpuy could be called sum.
+      - output could be called sum.
+
+## Step 2 Concrete Examples
+
+_Write a function which takes in a string and returns counts of each character in the string._
+
+```javascript
+//come up with a simple example
+charCount("aaaa"); //{a:4}
+//come up with more complex examples
+charCount("hello"); //{h:1, e:1, l:2, o:1}
+charCount("my phone number is 182763");
+```
+
+this last example brings up a lot of questions:
+
+- do we count spaces?
+- what about numbers?
+- symbols and special characters?
+- what about lowercase vs uppercase of the same letter? do we count them separately or not?
+
+```javascript
+//explore examples with empty inputs
+charCount("");
+```
+
+- what about if someone passes an empty string into the function? What should we expect?
+  - do we want to return an empty object? null? undefined?
+
+```javascript
+//explore examples with invalid inputs?
+charCount("1");
+charCount("[]");
+```
+
+though you usually won't have to think about this much during interviews but you will have to do this in your actual work so it's worth keeping in your approach.
+
+## Step 3 Break It Down
+
+**Explicitly** write out the steps you need to take.
+
+this forces you to think about the code you'll have to write before you write it, and helps you catch any lingering conceptual issues or misunderstandings before you dive in and have to worry about details as well.
