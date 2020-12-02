@@ -111,3 +111,21 @@ though you usually won't have to think about this much during interviews but you
 **Explicitly** write out the steps you need to take.
 
 this forces you to think about the code you'll have to write before you write it, and helps you catch any lingering conceptual issues or misunderstandings before you dive in and have to worry about details as well.
+
+## Step 4 Solve Or Simplify
+
+- Find the core difficulty in what you're trying to do
+- Temporarily ignore that difficulty
+- Write a simplified solution
+- Then incorporate that difficulty back in
+
+## Step 5 Look Back and Refactor
+
+Refactoring Questions
+- Can you check the result?
+- Can you derive the result differently? 
+- Can you understand it at a glance?
+- Can you use the result or method for some other problem?
+- Can you improve the performance of your solution?
+- Can you think of other ways to refactor?
+- How have other people solved this problem?
