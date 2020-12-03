@@ -1,7 +1,9 @@
 # Anagram Challenge
 
-Given two strings, write a function to determine if the second string is an anagram of the first. 
+Given two strings, write a function  called validAnagram to determine if the second string is an anagram of the first. 
 An anagram is a word, phrase, or name formed by rearranging the letters of another, such as _cinema_, formed from _iceman_.
+
+All the inputs will be single words, you can assume everything is lowercase, there will be no spaces, punctuations, or numbers.
 
 ```javascript
 validAnagram('', '') //true
