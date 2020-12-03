@@ -18,7 +18,7 @@ function validAnagram(word1, word2){
   for(let i = 0; i < word2.length; i++){
       //variable for us to store our current letter.
       let letter = word2[i];
-      //if our current letter is not in the breakdown, it's false
+      //if our current letter is not in the breakdown or if it's zero, it's false
       if(!wordBreakdown[letter]){
           return false;
       } else {
