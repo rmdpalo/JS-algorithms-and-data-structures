@@ -67,4 +67,4 @@ You usually use an object, and you use that object to construct a "profile" or b
 In this specific example we had two arrays, we broke each of them down into objects to classify what's in those arrays and then we can compare those objects.
 
 ## Try the Anagram challenge to test your understanding of frequency counters.
-[Anagram Challenge]()
+[Anagram Challenge](https://github.com/rmdpalo/JS-algorithms-and-data-structures/tree/main/Problem%20Solving%20Patterns/Frequency%20Counter%20Pattern/Anagram-challenge)
