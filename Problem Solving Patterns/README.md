@@ -8,4 +8,3 @@ This is not meant to be a cure-all for any and every interview question you'll r
 - Dynamic Programming
 - Greedy Algorithms
 - Backtracking
-- etc etc.
