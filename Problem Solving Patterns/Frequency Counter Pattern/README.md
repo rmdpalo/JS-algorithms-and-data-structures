@@ -45,9 +45,11 @@ function same(arr1, arr2){
         frequencyCounter2[val] = (frequencyCounter2[val] || 0) + 1
     } //for both arrays we check if that value is already in our frequency counter if not we initialize it to 1
     for(let key in frequencyCounter1){
+        //if any key we have in frequencyCounter1 isn't squared in frequencyCounter2 it's false.
         if(!(key**2 in frequencyCounter2)){
             return false
         }
+        //if the frequency of each key don't match up with it's squared counterparts it's false.
         if(frequencyCounter2[key**2] !== frequencyCounter1[key]){
             return false
         }
