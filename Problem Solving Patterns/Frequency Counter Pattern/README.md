@@ -65,3 +65,6 @@ The point of the frequency counters let us use objects to keep track of how many
 You usually use an object, and you use that object to construct a "profile" or breakdown of the contents of an array or string (usually some sort of linear structure like an array/string) and then you are quickly able to compare that breakdown to how another object looks that was also broken down from another array or string.
 
 In this specific example we had two arrays, we broke each of them down into objects to classify what's in those arrays and then we can compare those objects.
+
+## Try the Anagram challenge to test your understanding of frequency counters.
+[Anagram Challenge]()
