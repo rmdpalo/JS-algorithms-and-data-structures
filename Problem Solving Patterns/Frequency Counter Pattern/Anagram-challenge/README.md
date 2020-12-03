@@ -15,4 +15,4 @@ validAnagram('qwerty', 'qeywrt') //true
 validAnagram('testtwisttime', 'timetwisttest') //true
 ```
 
-Try it yourself before going into the solution. If you can't figure it out then you can check the solution and revisit this problem again later.
+Try it yourself before going into the [solution](https://github.com/rmdpalo/JS-algorithms-and-data-structures/blob/main/Problem%20Solving%20Patterns/Frequency%20Counter%20Pattern/Anagram-challenge/anagram-solution.js). If you can't figure it out then you can check the solution and revisit this problem again later.
