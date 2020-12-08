@@ -4,8 +4,6 @@ Creating __pointers__ or values that correspond to an index or position and move
 
 __Very__ efficient for solving problems with minimal space complexity as well.
 
-We have some sort of linear structure, it could be an array, or a string, a singly-linked list or a doubly-linked list (more on these later). The idea is that we're searching for a pair of values or searching for something that meets a condition, usually it's a pair though.
-
 An example:
 Write a function called __sumZero__ which accepts a sorted array of integers. The function should find the __first__ pair where the sum is 0. Return an array that includes both values that sum to zero or undefined if a pair does not exist.
 
@@ -55,3 +53,6 @@ function sumZero(arr){
 //Time Complexity O(N)
 //Space Complexity O(1)
 ```
+
+## The idea behind multiple pointers
+We have some sort of linear structure, it could be an array, or a string, a singly-linked list or a doubly-linked list (more on these later). The idea is that we're searching for a pair of values or searching for something that meets a condition, usually it's a pair though.
