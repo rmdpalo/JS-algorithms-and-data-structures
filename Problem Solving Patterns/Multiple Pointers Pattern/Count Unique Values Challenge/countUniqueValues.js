@@ -4,6 +4,7 @@ function countUniqueValues(arr){
     let i = 0;
     let j = 1;
 
+    //while j is not at the end of the array, continue.
     while (j < arr.length){
         if(arr[i] === arr[j]){
             //if arr[i] and arr[j] are the same move j up one index
@@ -33,7 +34,7 @@ function countUniqueValues(arr){
     }
     return i + 1;
 }
-
+//O(N) Time complexity.
 console.log(countUniqueValues([1,1,1,1,1,2]))//2
 
 console.log(countUniqueValues([1,2,3,4,4,4,7,7,12,12,13]))//7
